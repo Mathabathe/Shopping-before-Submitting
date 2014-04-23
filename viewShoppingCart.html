@@ -1,0 +1,583 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> view Shopping Cart</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="robots" content="NOINDEX, FOLLOW" />
+<meta name="google-site-verification" content="-z6PKU5_vIPy8pqMpeGPlp7Pqk5CfoWbzsEpBfZ3EEU" />
+<link rel="icon" href="http://www.houseandhome.co.za/media/favicon/default/logo.jpg" type="image/x-icon" />
+<link rel="shortcut icon" href="http://www.houseandhome.co.za/media/favicon/default/logo.jpg" type="image/x-icon" />
+<!--[if lt IE 7]>
+<script type="text/javascript">
+//<![CDATA[
+    var BLANK_URL = 'http://www.houseandhome.co.za/js/blank.html';
+    var BLANK_IMG = 'http://www.houseandhome.co.za/js/spacer.gif';
+//]]>
+</script>
+<![endif]-->
+
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Open+Sans:600:latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+</script>
+
+<link rel="stylesheet" type="text/css" href="http://www.houseandhome.co.za/skin/frontend/fortis/default/css/styles.css" media="all" />
+<link rel="stylesheet" type="text/css" href="http://www.houseandhome.co.za/skin/frontend/base/default/css/widgets.css" media="all" />
+<link rel="stylesheet" type="text/css" href="http://www.houseandhome.co.za/skin/frontend/fortis/default/css/infortis/brands.css" media="all" />
+<link rel="stylesheet" type="text/css" href="http://www.houseandhome.co.za/skin/frontend/fortis/default/css/infortis/super-slideshow.css" media="all" />
+<link rel="stylesheet" type="text/css" href="http://www.houseandhome.co.za/skin/frontend/fortis/default/css/common_skin.css" media="all" />
+<link rel="stylesheet" type="text/css" href="http://www.houseandhome.co.za/skin/frontend/fortis/default/css/skin.css" media="all" />
+<link rel="stylesheet" type="text/css" href="http://www.houseandhome.co.za/skin/frontend/fortis/default/css/menu_wide.css" media="all" />
+<link rel="stylesheet" type="text/css" href="http://www.houseandhome.co.za/skin/frontend/fortis/default/css/print.css" media="print" />
+<script type="text/javascript" src="http://www.houseandhome.co.za/js/prototype/prototype.js"></script>
+<script type="text/javascript" src="http://www.houseandhome.co.za/js/lib/ccard.js"></script>
+<script type="text/javascript" src="http://www.houseandhome.co.za/js/prototype/validation.js"></script>
+<script type="text/javascript" src="http://www.houseandhome.co.za/js/scriptaculous/builder.js"></script>
+<script type="text/javascript" src="http://www.houseandhome.co.za/js/scriptaculous/effects.js"></script>
+<script type="text/javascript" src="http://www.houseandhome.co.za/js/scriptaculous/dragdrop.js"></script>
+<script type="text/javascript" src="http://www.houseandhome.co.za/js/scriptaculous/controls.js"></script>
+<script type="text/javascript" src="http://www.houseandhome.co.za/js/scriptaculous/slider.js"></script>
+<script type="text/javascript" src="http://www.houseandhome.co.za/js/varien/js.js"></script>
+<script type="text/javascript" src="http://www.houseandhome.co.za/js/varien/form.js"></script>
+<script type="text/javascript" src="http://www.houseandhome.co.za/js/varien/menu.js"></script>
+<script type="text/javascript" src="http://www.houseandhome.co.za/js/mage/translate.js"></script>
+<script type="text/javascript" src="http://www.houseandhome.co.za/js/mage/cookies.js"></script>
+<script type="text/javascript" src="http://www.houseandhome.co.za/js/infortis/jquery/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="http://www.houseandhome.co.za/js/infortis/jquery/jquery-noconflict.js"></script>
+<script type="text/javascript" src="http://www.houseandhome.co.za/js/infortis/jquery/plugins/jquery.cycle.2.999.js"></script>
+<script type="text/javascript" src="http://www.houseandhome.co.za/js/infortis/jquery/plugins/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="http://www.houseandhome.co.za/js/infortis/jquery/jquerytools/tools.tabs-1.0.4.min.js"></script>
+<script type="text/javascript" src="http://www.houseandhome.co.za/js/infortis/jquery/jquerytools/tools.tooltip-1.2.7.min.js"></script>
+<script type="text/javascript" src="http://www.houseandhome.co.za/js/varien/weee.js"></script>
+<!--[if lt IE 8]>
+<link rel="stylesheet" type="text/css" href="http://www.houseandhome.co.za/skin/frontend/base/default/css/styles-ie.css" media="all" />
+<![endif]-->
+<!--[if lt IE 7]>
+<script type="text/javascript" src="http://www.houseandhome.co.za/js/lib/ds-sleight.js"></script>
+<script type="text/javascript" src="http://www.houseandhome.co.za/skin/frontend/base/default/js/ie6.js"></script>
+<![endif]-->
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" href="http://www.houseandhome.co.za/skin/frontend/fortis/default/css/styles-ie-all.css" media="all" />
+<link rel="stylesheet" type="text/css" href="http://www.houseandhome.co.za/skin/frontend/fortis/default/css/skin-ie-all.css" media="all" />
+<![endif]-->
+<!--[if lte IE 7]>
+<link rel="stylesheet" type="text/css" href="http://www.houseandhome.co.za/skin/frontend/fortis/default/css/styles-ie7.css" media="all" />
+<![endif]-->
+
+<script type="text/javascript">
+//<![CDATA[
+Mage.Cookies.path     = '/';
+Mage.Cookies.domain   = '.www.moagichairs.co.za';
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+optionalZipCountries = ["AF","AL","DZ","AS","AD","AO","AI","AQ","AG","AR","AM","AW","AU","AT","AZ","BS","BH","BD","BB","BY","BE","BZ","BJ","BM","BT","BO","BA","BW","BV","BR","IO","VG","BN","BG","BF","BI","KH","CM","CA","CV","KY","CF","TD","CL","CN","CX","CC","CO","KM","CG","CD","CK","CR","HR","CU","CY","CZ","CI","DK","DJ","DM","DO","EC","EG","SV","GQ","ER","EE","ET","FK","FO","FJ","FI","FR","GF","PF","TF","GA","GM","GE","DE","GH","GI","GR","GL","GD","GP","GU","GT","GG","GN","GW","GY","HT","HM","HN","HK","HU","IS","IN","ID","IR","IQ","IE","IM","IL","IT","JM","JP","JE","JO","KZ","KE","KI","KW","KG","LA","LV","LB","LS","LR","LY","LI","LT","LU","MO","MK","MG","MW","MY","MV","ML","MT","MH","MQ","MR","MU","YT","MX","FM","MD","MC","MN","ME","MS","MA","MZ","MM","NA","NR","NP","NL","AN","NC","NZ","NI","NE","NG","NU","NF","KP","MP","NO","OM","PK","PW","PS","PA","PG","PY","PE","PH","PN","PL","PT","PR","QA","RO","RU","RW","RE","BL","SH","KN","LC","MF","PM","VC","WS","SM","SA","SN","RS","SC","SL","SG","SK","SI","SB","SO","ZA","GS","KR","ES","LK","SD","SR","SJ","SZ","SE","CH","SY","ST","TW","TJ","TZ","TH","TL","TG","TK","TO","TT","TN","TR","TM","TC","TV","UM","VI","UG","UA","AE","GB","US","UY","UZ","VU","VA","VE","VN","WF","EH","YE","ZM","ZW","AX"];
+//]]>
+</script>
+<script type="text/javascript">var Translator = new Translate({"Please use only letters (a-z or A-Z), numbers (0-9) or underscore(_) in this field, first character should be a letter.":"Please use only letters (a-z or A-Z), numbers (0-9) or underscores (_) in this field, first character must be a letter."});</script>
+<style type="text/css">
+	#nav ul.level0 > li { display:inline-block; float:none; vertical-align:top; }/*#nav li.level1 > a { min-height:30px; }*/
+</style>
+</head>
+<body class=" checkout-cart-index">
+
+<!-- BEGIN GOOGLE ANALYTICS CODE -->
+<script type="text/javascript">
+//<![CDATA[
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+    })();
+
+    var _gaq = _gaq || [];
+
+_gaq.push(['_setAccount', 'UA-2504674-4']);
+_gaq.push(['_trackPageview']);
+
+
+//]]>
+</script>
+        
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39981019-1']);
+  _gaq.push(['_setDomainName', 'houseandhome.co.za']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<div class="header-container header-bg-gray-vl header-skin-l user-menu-skin-default">
+<div class="header-container2">
+<div class="header-col-left">
+<div class="header-col-right">
+    <div class="header">
+
+    	<div class="header-top">
+            
+          </div>
+        
+    	        <a href="http://www.houseandhome.co.za/index.php/" title="House and Home" class="logo"><strong>Moagi Chairs</strong><img src="Pictures/logo.jpg" alt="" width="540" height="106" longdesc="Pictures/logo.jpg" /></a>
+        
+		<div class="header-left">
+          </div> <!-- end: header-left -->
+        
+		<div class="header-right">
+        	<div class="header-right-secondary">
+        		<p class="welcome-msg">Welcome, Escorcia mello! </p>
+   			</div>
+            <div class="user-menu">
+
+				                
+                <ul class="links">
+                    	            <li class="item-1 first" ><a href="http://www.houseandhome.co.za/index.php/customer/account/" title="My Account" >My Account</a></li>
+                                        <li ><a href="http://www.houseandhome.co.za/index.php/wishlist/" title="My Wishlist" >My Wishlist</a></li>
+                                    	            <li class="item-3" ><a href="http://www.houseandhome.co.za/index.php/findastore.html" title="Our Stores" >Our Stores</a></li>
+                                    	            <li class="item-4 last" ><a href="http://www.houseandhome.co.za/index.php/customer/account/logout/" title="Log Out" >Log Out</a></li>
+              </ul>
+
+				                
+                <ul>
+                	<li id="mini-cart" class="user-menu-item user-menu-cart">
+						<div class="block block-cart">
+        <div class="block-title">
+    	<div class="block-title-inner">
+    	<a class="heading" href="http://www.moagichairs.co.za/index.php/checkout/cart/" title="View contents of your shopping cart">My Home</a>
+        
+                	<div class="summary">
+            
+            	<a href="http://www.moagichaire.co.za/index.php/checkout/cart/" title="View contents of your shopping cart">
+                    <p class="amount">Cart<span>(1)</span></p>
+                    <p class="subtotal" >
+                                                    <span class="price">R1,899.00</span>                                                                        </p>
+                </a>
+                
+				                    <div class="to-checkout">
+                    	                        <a href="http://www.houseandhome.co.za/index.php/checkout/onepage/" title="Proceed to Checkout">Checkout<span class="icon"></span></a>                    </div>
+			</div>
+		        </div> <!-- end: block-title-inner -->
+    </div> <!-- end: block-title -->
+
+                
+            	<div class="block-content">
+        
+			        
+            <p class="block-subtitle">Recently added item(s)</p>
+            	</div>
+					  </div>
+                	</li>
+                    <li class="user-menu-item user-menu-cart">
+                      <div class="block block-cart">
+                        <div class="block-content"><img src="Pictures/visit1.jpg" alt="" width="72" height="96" longdesc="Pictures/visit1.jpg" />
+                          <ol id="cart-sidebar" class="mini-products-list">
+                            <li class="item">
+                              <a href="http://www.houseandhome.co.za/index.php/casanova-tub-chair-leathermate-black-b.html" title="CASANOVA VISITORS CHAIR OSTRICH BLACK     *B*" class="product-image"></a>
+                              <div class="product-details">
+                                <a href="http://www.houseandhome.co.za/index.php/checkout/cart/delete/id/66662/uenc/aHR0cDovL3d3dy5ob3VzZWFuZGhvbWUuY28uemEvaW5kZXgucGhwL2NoZWNrb3V0L2NhcnQv/" title="Remove This Item" onclick="return confirm('Are you sure you would like to remove this item from the shopping cart?');" class="btn-remove">Remove This Item</a>
+                                <a href="http://www.houseandhome.co.za/index.php/checkout/cart/configure/id/66662/" title="Edit item" class="btn-edit">Edit item</a>
+                                <p class="product-name"><a href="http://www.houseandhome.co.za/index.php/casanova-tub-chair-leathermate-black-b.html">CASANOVA VISITORS CHAIR OSTRICH BLACK     *B*</a></p>
+              <strong>1</strong> x
+                                
+                                
+                                <span class="price">R1,899.00</span>                              </div>
+      </li>
+                          </ol>
+                          <script type="text/javascript">decorateList('cart-sidebar', 'none-recursive')</script>
+                          
+                          <div class="actions">
+                            <button type="button" title="View contents of your shopping cart" class="button btn-inline" onclick="setLocation('http://www.moagichairs.co.za/index.php/checkout/cart/')"><span><span>View shopping cart</span></span></button>
+   	                      </div>
+                        </div>
+                      </div>
+                    </li>
+                </ul>
+		
+		<div class="header-top-search-wrapper">
+            	<form id="search_mini_form" action="http://www.houseandhome.co.za/cart.php/catalogsearch/result/" method="get">
+    <div class="form-search">
+        <label for="search">Search:</label>
+        <input id="search" type="text" name="q" value="" class="input-text" />
+        <button type="submit" title="Search" class="button"><span><span>Search</span></span></button>
+        <div id="search_autocomplete" class="search-autocomplete"></div>
+     </div>
+</form>
+		                         	<div class="header-top-links-wrapper"><div style="float: right; margin-right: 5px;"><a title="Join us on Facebook" href="http://www.facebook.com/houseandhomeSA"> <img src="http://www.houseandhome.co.za/media/wysiwyg/facebook_1.jpg" alt="facebook" /> </a>&nbsp;&nbsp; <a title="Follow us on Twitter" href="http://twitter.com/houseandhomeSA"> <img src="http://www.houseandhome.co.za/media/wysiwyg/twitter_1.jpg" alt="twitter" /> </a>&nbsp;</div></div>
+              </div>
+            </div>
+	    
+        </div> <!-- end: header-right -->
+    </div> <!-- end: header -->
+    
+    
+    </div> <!-- end: header-col-right -->
+    </div> <!-- end: header-col-left -->
+</div> <!-- end: header-container2 -->
+
+<div class="nav-container navbar-green-pea-d level1-link-color-white level2-link-gray-l-gray level2-col6">
+<div class="nav">
+	<div class="navbar-bg navbar-left"></div>
+	<div class="navbar-bg navbar"><a href="http://www.houseandhome.co.za/index.php/audio-visual/gaming-hardware/wii.html"><span>I</span>
+    </a>
+      </li>
+      <li class="level1 nav-2-8 parent">
+<a href="http://www.houseandhome.co.za/index.php/audio-visual/gaming-accessories.html">
+<span>Other Chair Types</span></a>
+<ul class="level1">
+<li class="level2 nav-2-8-31 first">
+<a href="http://www.houseandhome.co.za/index.php/audio-visual/gaming-accessories/ps2.html">
+<span>Office Chairs</span></a></li><li class="level2 nav-2-8-32">
+<a href="http://www.houseandhome.co.za/index.php/audio-visual/gaming-accessories/ps3.html">
+<span>Camping Chairs</span></a>
+</li><li class="level2 nav-2-8-33">
+<a href="http://www.houseandhome.co.za/index.php/audio-visual/gaming-accessories/ps4.html">
+<span>Kiddies Chairs</span></a>
+</li><li class="level2 nav-2-8-34">
+<a href="http://www.houseandhome.co.za/index.php/audio-visual/gaming-accessories/psp.html">
+<span>Kitchen Chairs</span></a></li>
+</ul>
+</li>
+      </ul>
+    </div>
+	<div class="navbar-bg navbar-right"></div>
+
+</div>
+</div>
+</div> <!-- end: header-container -->
+	
+
+
+
+        <div class="main-container col1-layout">
+                        <div class="header-col-left">
+<div class="header-col-right">
+            <div class="main">
+                                <div class="col-main">
+                                        <div class="cart">
+    <div class="page-title title-buttons">
+        <h1>Shopping Cart</h1>
+            </div>
+            <form action="http://www.houseandhome.co.za/index.php/checkout/cart/updatePost/" method="post">
+        <fieldset>
+        	<div class="cart-table-wrapper">
+            <table id="shopping-cart-table" class="data-table cart-table">
+                <col width="1" />
+                <col />
+                <col width="1" />
+                            <col width="1" />
+                                        <col width="1" />
+                                        <col width="1" />
+                            <col width="1" />
+                                        <col width="1" />
+
+                            <thead>
+                    <tr>
+                        <th rowspan="1">&nbsp;</th>
+                        <th rowspan="1"><span class="nobr">Product Name</span></th>
+                        <th rowspan="1"></th>
+                                                <th rowspan="1" class="a-center"><span class="nobr">Move to Wishlist</span></th>
+                                                <th class="a-center" colspan="1"><span class="nobr">Unit Price</span></th>
+                        <th rowspan="1" class="a-center">Qty</th>
+                        <th class="a-center" colspan="1">Subtotal</th>
+                        <th rowspan="1" class="a-center last">&nbsp;</th>
+                    </tr>
+                                    </thead>
+                <tfoot>
+                    <tr>
+                        <td colspan="50" class="a-right">
+                                                        	<a class="btn-continue" href="http://www.houseandhome.co.za/index.php/" title="Continue Shopping">Continue Shopping</a>
+                                                        <button type="submit" title="Update Shopping Cart" class="btn-update"><a class="btn-update">Update Shopping Cart</a></button>
+                        </td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                                    <tr>
+    <td><a href="http://www.houseandhome.co.za/index.php/casanova-tub-chair-leathermate-black-b.html" title="CASANOVA TUB CHAIR OSTRICH BLACK     *B*" class="user-menu-skin-w3b"></a><img src="Pictures/visit1.jpg" alt="" width="72" height="96" longdesc="Pictures/visit1.jpg" /></td>
+    <td>
+        <h2 class="product-name">
+                    <a href="http://www.houseandhome.co.za/index.php/casanova-tub-chair-leathermate-black-b.html">CASANOVA TUB CHAIR OSTRICH BLACK     *B*</a>
+                </h2>
+                                      </td>
+    <td class="a-center">
+                <a href="http://www.houseandhome.co.za/index.php/checkout/cart/configure/id/66662/" title="Edit item parameters">Edit</a>
+            </td>
+        <td class="a-center">
+                <input type="checkbox" value="1" name="cart[66662][wishlist]" title="Move to Wishlist" class="checkbox" />
+            </td>
+    
+    
+                <td class="a-right">
+                            <span class="cart-price">
+                                                <span class="price">R1,899.00</span>                
+            </span>
+
+
+                    </td>
+                        <td class="a-center">
+        <input name="cart[66662][qty]" value="1" size="4" title="Qty" class="input-text qty" maxlength="12" />
+    </td>
+        <td class="a-right">
+                    <span class="cart-price">
+        
+                                                <span class="price">R1,899.00</span>                            
+        </span>
+            </td>
+            <td class="a-center"><a href="http://www.houseandhome.co.za/index.php/checkout/cart/delete/id/66662/uenc/aHR0cDovL3d3dy5ob3VzZWFuZGhvbWUuY28uemEvaW5kZXgucGhwL2NoZWNrb3V0L2NhcnQv/" title="Remove item" class="btn-remove btn-remove2">Remove item</a></td>
+</tr>
+                                </tbody>
+            </table>
+            </div>
+            <script type="text/javascript">decorateTable('shopping-cart-table')</script>
+        </fieldset>
+    </form>
+    <div class="cart-collaterals">
+    	<div class="cart-left-column">
+        	<div class="cart-top-box cart-wide-box">
+            
+            		
+					<div class="col2-set">
+                        <div class="col-1">
+                        	                        </div>
+                        <div class="col-2">
+                        	<form id="discount-coupon-form" action="http://www.houseandhome.co.za/index.php/checkout/cart/couponPost/" method="post">
+    <div class="discount">
+        <h2>Discount Codes</h2>
+        <div class="discount-form">
+            <label for="coupon_code">Enter your coupon code if you have one.</label>
+            <input type="hidden" name="remove" id="remove-coupone" value="0" />
+            <div class="input-box">
+                <input class="input-text" id="coupon_code" name="coupon_code" value="" />
+            </div>
+            <div class="buttons-set">
+                <button type="button" title="Apply Coupon" class="button" onclick="discountForm.submit(false)" value="Apply Coupon"><span><span>Apply Coupon</span></span></button>
+                            </div>
+        </div>
+    </div>
+</form>
+<script type="text/javascript">
+//<![CDATA[
+var discountForm = new VarienForm('discount-coupon-form');
+discountForm.submit = function (isRemove) {
+    if (isRemove) {
+        $('coupon_code').removeClassName('required-entry');
+        $('remove-coupone').value = "1";
+    } else {
+        $('coupon_code').addClassName('required-entry');
+        $('remove-coupone').value = "0";
+    }
+    return VarienForm.prototype.submit.bind(discountForm)();
+}
+//]]>
+</script>
+                        </div>
+					</div>
+            
+            </div>
+                        <div class="cart-bottom-box cart-wide-box">
+            
+            		    
+                                                                            
+            </div>
+        </div> <!-- end: left-column -->
+        <div class="cart-right-column">
+            <div class="totals">
+				    <table id="shopping-cart-totals-table">
+        <col />
+        <col width="1" />
+        <tfoot>
+            <tr>
+    <td style="" class="a-right" colspan="1">
+        <strong>Grand Total</strong>
+    </td>
+    <td style="" class="a-right">
+        <strong><span class="price">R1,899.00</span></strong>
+    </td>
+</tr>
+        </tfoot>
+        <tbody>
+            <tr>
+    <td style="" class="a-right" colspan="1">
+        Subtotal    </td>
+    <td style="" class="a-right">
+        <span class="price">R1,899.00</span>    </td>
+</tr>
+        </tbody>
+    </table>
+                                <ul class="checkout-types">
+                                                                                                                                <li>    <button type="button" title="Proceed to Checkout" class="button btn-proceed-checkout btn-checkout" onclick="window.location='http://www.houseandhome.co.za/index.php/checkout/onepage/';"><span><span><span class="img-checkout"></span>Proceed to Checkout</span></span></button>
+</li>
+                                                                            <li><a href="http://www.houseandhome.co.za/index.php/checkout/multishipping/" title="Checkout with Multiple Addresses">Checkout with Multiple Addresses</a>
+</li>
+                                                                                        </ul>
+                            </div>
+            
+            
+		</div>
+            
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    </div>
+</div>
+        <div class="footermain">
+<div class="footer-col-left">
+<div class="footer-col-right">
+<div class="footer-container footer-bg-gray-vd">
+
+<div class="footer-container2">
+
+<div class="footer">
+	<div class="footer-top">
+
+	</div>
+	<div class="footer-main mclear">
+    	<div class="footer-main-top clearer">
+            <div class="footer-main-top-left">
+            	            </div>
+            <div class="footer-main-top-right">
+                <div id="subscribe-form" class="clearer">
+                                    </div>
+            </div>
+        </div> <!-- end: footer-main-top -->
+        
+                		                                    <div class="footer-main-bottom clearer">
+            
+                                                    <div class="footer-item wide" style="min-height:120px;">
+                                                                                                        <div class="footer-links-column-wrapper" >
+                                <h6 class="heading">More Information</h6>
+<ul>
+<li><a href="/about-houseandhome">About Us</a></li>
+<li><a href="/customerservice">Customer Service</a></li>
+<li><a href="/findastore.html">Find a Store</a></li>
+<li><a href="/careers">Careers</a></li>
+<li><a href="/contactus">Contact Us</a></li>
+</ul>                            </div>
+                                                                                <div class="footer-links-column-wrapper" >
+                                <h6 class="heading">Terms &amp; Service</h6>
+<ul>
+<li><a href="/termsofservice">Our Terms of Service</a></li>
+<li><a href="/disclaimer">Disclaimer</a></li>
+<li><a href="/deliveryinfo">Delivery Information</a></li>
+<li><a href="/refundsandexchanges">Refunds and Exchanges</a></li>
+</ul>                            </div>
+                                                                                <div class="footer-links-column-wrapper" >
+                                <h6 class="heading">My Account</h6>
+<ul>
+<li><a href="/customer/account/login">Login to Account</a></li>
+<li><a href="/customer/account/create/">Need an Account?</a></li>
+<li><a href="/contactus">Account Issues?</a></li>
+</ul>                            </div>
+                                                <script type="text/javascript">decorateGeneric($$('.footer-links-column-wrapper'), ['last'])</script>
+                    </div>
+                    
+                                                    <div class="footer-item narrow last" style="min-height:120px;">
+                        <div class="footer-company-wrapper"><table style="width: 100%;" border="0" align="left">
+<tbody>
+<tr>
+<td colspan="3">&nbsp;</td>
+<td><br /></td>
+</tr>
+<tr>
+<td colspan="4"><img src="Pictures/logo.jpg" alt="" width="540" height="106" longdesc="Pictures/logo.jpg" /></td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="4">&copy; 2014 Moagi Chairs. All Rights Reserved.</td>
+</tr>
+</tbody>
+</table>
+                        </div>
+                    </div>
+                    
+            </div> <!-- end: footer-main-bottom -->
+                        
+    </div> <!-- end: footer-main -->
+    
+    <div class="footer-bottom mclear">
+        <p class="footer-copyright">&copy; 2012 House & Home. All Rights Reserved.</p>
+        <div class="store-switcher"></div>
+		        <div class="clearer"></div>
+    </div> <!-- end: footer-bottom -->
+    
+	
+</div> <!-- end: footer -->
+
+    
+</div> <!-- end: footer-container2 -->
+
+</div> <!-- end: footer-container -->
+</div> <!-- end: footer-col-right -->
+    </div> <!-- end: footer-col-left -->
+</div>
+</div>
+<script type="text/javascript">
+	jQuery(function() {
+		
+		jQuery(".left-edgebox").hover(function() {
+			jQuery(this).addClass('hover');
+			jQuery(this).stop(true).delay(150).animate({left: '-1px'}, 800, 'easeOutQuint'); //'easeOutCubic');
+		}, function() {
+			jQuery(this).stop(true).animate({left: '-252px'}, 800, 'easeInQuint');
+		});
+	
+		jQuery(".right-edgebox").hover(function() {
+			jQuery(this).addClass('hover');
+			jQuery(this).stop(true).delay(150).animate({right: '-1px'}, 800, 'easeOutQuint'); //'easeOutCubic');
+		}, function() {
+			jQuery(this).stop(true).animate({right: '-252px'}, 800, 'easeInQuint');
+		});
+		
+		jQuery("#mini-cart").hover(function() {
+			jQuery(this).addClass('hover');
+			jQuery("#mini-cart .block-content").stop(true, true).delay(300).slideDown(500, "easeOutBounce");
+		}, function() {
+			jQuery("#mini-cart .block-content").stop(true, true).delay(300).fadeOut(800, "easeInCubic");
+		});
+		
+		
+		
+				jQuery(".top-dropdown").mouseenter(function() {
+			jQuery(this).click();
+		});
+		jQuery(".top-dropdown").click(function() {
+			jQuery(this).addClass('hover');
+			jQuery(this).find("ul").stop(true, true).delay(300).fadeIn(500, "easeOutCubic");
+		}).mouseleave(function() {
+			jQuery(this).find("ul").stop(true, true).delay(300).fadeOut(500, "easeInCubic");
+		});
+		
+				//jQuery("#demo img[title]").tooltip();
+		//jQuery(".footer-social-wrapper a, .footer-payment-wrapper img, .box-brand a").tooltip({effect:'fade', predelay:300});
+		jQuery(".footer-social-wrapper a, .footer-payment-wrapper img, .box-brand a").tooltip({effect:'fade', predelay:300});
+
+	});
+</script>
+
+        </body>
+</html>
